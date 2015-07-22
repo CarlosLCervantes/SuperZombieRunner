@@ -72,6 +72,8 @@
 'Assets/Scripts/DestroyOffscreen.cs'
 'Assets/Scripts/GameObjectUtil.cs'
 'Assets/Scripts/InstantVelocity.cs'
+'Assets/Scripts/ObjectPool.cs'
+'Assets/Scripts/Obstacle.cs'
 'Assets/Scripts/PixelPerfectCamera.cs'
 'Assets/Scripts/RecycleGameObject.cs'
 'Assets/Scripts/Spawner.cs'

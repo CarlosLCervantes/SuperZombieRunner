@@ -1,23 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Obstacle : MonoBehaviour : IRecycle {
+public class Obstacle : MonoBehaviour, IRecycle {
+
+	public Sprite[] sprites;
 
 	public void Restart() {
-
+		Debug.Log ("asdasdasdad");
+		var renderer = GetComponent<SpriteRenderer> ();
+		renderer.sprite = sprites[Random.Range (0, sprites.Length)];
 	}
 
 	public void Shutdown() {
 
-	}
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }
